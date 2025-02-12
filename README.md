@@ -5,7 +5,6 @@ Este repositório contém uma coleção de testes de API criados no Postman.
 ## 📌 Arquivos
 
 - `meus-testes.postman_collection.json` → Coleção com os testes de API
-- `meu-ambiente.postman_environment.json` → Variáveis de ambiente usadas nos testes
 
 ## 🚀 Como Executar os Testes
 

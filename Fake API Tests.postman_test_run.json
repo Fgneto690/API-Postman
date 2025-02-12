@@ -1,0 +1,195 @@
+{
+	"id": "446e605e-a05c-4422-8578-9700b1594f66",
+	"name": "Fake API Tests",
+	"timestamp": "2025-02-12T02:25:36.030Z",
+	"collection_id": "42066745-9a410315-cc14-4dcc-ba5f-4aca68eeb05e",
+	"folder_id": "42066745-7a867244-34da-4dc4-ab4d-f095b5b70319",
+	"environment_id": "42066745-3b51a569-f1dc-419e-a2f2-d775440f0f04",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-12T02:25:34.482Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "76941531-8788-483f-b56e-ca8378a9181b",
+			"name": "Get-all-users",
+			"url": "https://67abf41b5853dfff53d8ef64.mockapi.io/Users",
+			"time": 168,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Os usuarios tem ID": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Os usuarios tem ID": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				168
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Os usuarios tem ID": true
+				}
+			]
+		},
+		{
+			"id": "31ad4e2c-6544-4faa-96ad-f8f8a5dc5667",
+			"name": "Get-individual-users",
+			"url": "https://67abf41b5853dfff53d8ef64.mockapi.io/Users/20",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Se o usuario corresponde a pagina": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Se o usuario corresponde a pagina": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				173
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Se o usuario corresponde a pagina": true
+				}
+			]
+		},
+		{
+			"id": "bb1d1e78-bfbc-453a-95e4-185327ec9776",
+			"name": "Posts-users",
+			"url": "https://67abf41b5853dfff53d8ef64.mockapi.io/Users",
+			"time": 176,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Se foi criado um novo post": true,
+				"Se o post tem Nome, idade e id": true
+			},
+			"testPassFailCounts": {
+				"Se foi criado um novo post": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Se o post tem Nome, idade e id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				176
+			],
+			"allTests": [
+				{
+					"Se foi criado um novo post": true,
+					"Se o post tem Nome, idade e id": true
+				}
+			]
+		},
+		{
+			"id": "8da86e94-8a5a-4030-8a6b-e7d3e2cef755",
+			"name": "Att-user",
+			"url": "https://67abf41b5853dfff53d8ef64.mockapi.io/Users/1",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Saber se funcionou a atualização de usuario": true
+			},
+			"testPassFailCounts": {
+				"Saber se funcionou a atualização de usuario": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				173
+			],
+			"allTests": [
+				{
+					"Saber se funcionou a atualização de usuario": true
+				}
+			]
+		},
+		{
+			"id": "b99a62ab-418e-4d23-80b9-f0e65869ea92",
+			"name": "Delete-User",
+			"url": "https://67abf41b5853dfff53d8ef64.mockapi.io/Users/16",
+			"time": 180,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status deve ser 200 ou 204": true
+			},
+			"testPassFailCounts": {
+				"Status deve ser 200 ou 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				180
+			],
+			"allTests": [
+				{
+					"Status deve ser 200 ou 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 870,
+	"collection": {
+		"requests": [
+			{
+				"id": "76941531-8788-483f-b56e-ca8378a9181b",
+				"method": "GET"
+			},
+			{
+				"id": "31ad4e2c-6544-4faa-96ad-f8f8a5dc5667",
+				"method": "GET"
+			},
+			{
+				"id": "bb1d1e78-bfbc-453a-95e4-185327ec9776",
+				"method": "POST"
+			},
+			{
+				"id": "8da86e94-8a5a-4030-8a6b-e7d3e2cef755",
+				"method": "PUT"
+			},
+			{
+				"id": "b99a62ab-418e-4d23-80b9-f0e65869ea92",
+				"method": "DELETE"
+			}
+		]
+	}
+}

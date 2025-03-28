@@ -2,6 +2,10 @@
 
 Este repositório contém uma coleção de testes de API criados no Postman.
 
+Neste projeto, utilizei o Postman para simular e validar as principais operações de requisições HTTP, abrangendo os métodos POST, GET, PUT e DELETE. O objetivo foi testar e garantir a integridade das interações entre cliente e servidor, validando respostas, status codes e a estrutura dos dados retornados.
+
+Além disso, o repositório inclui o arquivo Collection, que contém a coleção completa dos testes realizados, permitindo a execução e análise dos cenários testados de forma estruturada.
+
 ## 📌 Arquivos
 
 - `meus-testes.postman_collection.json` → Coleção com os testes de API
